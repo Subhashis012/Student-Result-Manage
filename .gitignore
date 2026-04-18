@@ -1,0 +1,15 @@
+# Student data file - keep local only
+students_data.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
