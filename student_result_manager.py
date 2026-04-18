@@ -33,8 +33,7 @@ while True:
         name = input("Enter Student Name: ")
         marks = int(input("Enter marks: "))
         student[name] = marks
-        print(f"{name}'s marks added!")
-        save_data(student)  # Auto-save after each addition
+        print(f"{name}'s marks added! (Not saved yet — choose 4 to Save & Exit)")
 
     # View students
     elif choice == "2":
